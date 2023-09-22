@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_Dom 2</title>
+</head>
+<body>
+
+
+<ul>
+    <li>One</li>
+    <li>two</li>
+    <li>three</li>
+</ul>
+
+    <script>
+//Append child
+let title=document.createElement("h1");
+title.className="PkBoi"
+title.style.fontSize="25px"
+title.textContent="Hammad Boii Hello";
+console.log(title);
+document.body.appendChild(title);
+
+
+//remove child
+let ul=document.querySelector("ul")
+console.log(ul);
+let lists=document.querySelectorAll("li");
+console.log(lists);
+
+//for off loop
+for(list of lists){
+    ul.removeChild(list)
+}
+    </script>
+</body>
+</html>

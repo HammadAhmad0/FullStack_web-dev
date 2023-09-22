@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        /* grid-template-columns: repeat(3,1fr) ; */
+        /* grid-template-columns: minmax(10px,2fr) minmax(10px,1fr) minmax(10px,1fr) ; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 600px 100px 100px;
+        grid-area: header header header;
+
+        
+    }
+.box{
+    /* height: 100px;
+    width: 100px; */
+    margin: 10px;
+}
+.box1{
+    background-color: red;
+    border: 2px solid black;
+    /* align-self: center; //Y axis */
+    /* justify-self: center; //x axis */
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+</style>
+<body>
+    <!-- Grid System -->
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom part 1</title>
+</head>
+<body>
+   <!-- Id  will unique -->
+   <p id="one"><span>Hello</span>Namaste</p>
+<!-- class can be duplicate -->
+<ul>
+<li class="tech">One</li>
+<li class="tech">Two</li>
+<li class="tech">Three</li>
+</ul>
+
+<!-- tagname -->
+<h4>Hey</h4>
+<h4>Hey</h4>
+<h4>Hey</h4>
+
+<!-- Query selector -->
+ <h2>Hello</h2>
+ <h2 class="class">Holaeeriii</h2>
+ <h2 id="ids">Hey</h2>
+
+
+<!-- script -->
+    <script>
+        //Id
+        let var1=document.getElementById("one");
+        console.log(var1.innerText);
+        // console.log(var1.innerHTML);
+
+        //class
+        let var2 = document.getElementsByClassName("tech");
+        console.log(var2[2].innerText);
+        var2[1].innerText="Nodejs";
+
+        
+        //tagname
+        let var3=document.getElementsByTagName("h4");
+        // console.log(var3[1].innerHTML);
+        var3[1].innerText="updated as Hey to Hiii"
+        var3[1].style.color="red";
+
+
+        // Query Selector
+        let var4=document.querySelector(".class")
+        console.log(var4);
+        // var4.className="hello";
+        // var4.classList="hello hola hola";
+        // var4.setAttribute("id","Hammad")
+        var4.setAttribute("title","Hammad");
+    </script>
+</body>
+</html>
