@@ -1,0 +1,139 @@
+What is a Database?
+-> Data + Base 
+Storage + (computation=use of Data)
+
+
+
+//Before the computer
+1> Memorize => spread or transfer to others
+
+
+computers can help us to
+1> store data \
+2> use data   /
+
+why?
+popular Application  //without database almost not possible to make application... now a days
+example-: fb,insta,Linkdein
+
+photos uploaded on fb =>how?
+fb uses database => imgs/contents/friends
+
+storage of data + computati on of the same data
+//Data driven decision -  Data is the new oil
+
+
+File Based Storage System
+what?
+- in simple term - storing the data into files
+
+like 
+     for windows                For Linux 
+
+     c drive                    Root Directory           
+         |                            |
+---------|--------              ------|-------
+|                |              |     |      |
+Folder        Folder           File  File   File
+   |             |
+-------        Video
+|     |         File
+Txt  Img    
+file File
+(Data)
+
+Why file Based Storage System?
+Advantage- 
+1) very easy to use
+2) No Complication involved
+3) Easily Copied and stored at multiple locations
+
+Example ->
+Like i am working for a company
+
+
+Account Dep                                Organization
+Name                                             Name
+Address        <----company ---->                 Dept
+Phone No               |                      phone no
+Dept                   |                       Manager
+Bank AC                |                      Reporting
+
+                  HR Dept 
+                   Name
+                   Address
+                   phone No.
+                    Role
+                   Reoprting
+
+Storing same things at multiple places is called Redundancy => thas was the big problem with FBSS
+
+Challenges of FBSS
+1) Redundancy --Multiple copies of same Data at multiple places
+Read Anamoly
+stale Data
+Update anamoly
+write --
+
+2)Security Concerns
+
+3)Time Taking process
+
+4)Difficulty in concurrent user
+like abc.txt somone is trying to read others have to wait
+no talks about speed that time
+Limitations and challenges are the mother of inventions
+
+Schema
+Blue print of whole DataBase   or  information about database
+examples 
+All tables
+Table names
+Table Attributes
+Relationship b/w tables
+Different types of Function
+
+DataBase instance
+t=0 no data 
+t=t1 100mb of data stored   // like at time t1 we are looking for what type of data is there what is the relationship of the data at that specific point of time is called Database instances
+t=t2 5gb of data stored
+
+
+Three Schema Architecture
+
+internal Schema -- how data is stored and retrived in HardD
+conceptual schema -- entire Data set that can be arraenged in  the forms of table what is the relationship in table 
+external Schema -- id|name|salary|Age-->different differnt consumer like for finance it will be salary wala table 
+   parts of same table that customers wants
+
+Advantages/Why?
+
+Customized data-> providing customized data for end users
+Logical Data independence 
+physical Data independence  -- we can change that algo earlier used for customized data without telling th ecustomers
+ 
+
+Data Base Management System (DBMS)
+eg) MySql,Oracle,MongoDB can i call it database?
+these are not only database these are database management system
+
+first Brand of photocopy named was Xerox
+first Detergent Brand was surf  
+
+DBMS?????????
+DataBase -->physical layer where we store our data
+Database + Management System => (lared of managemenrt)code/program around Database
+DBMS is nothing but its a Software
+
+
+improvement of FBSS
+DBMS like PMO office
+DataBAse is like Mr Modi
+layerd of Z+ Security no one can meet directly is like Management or management layer
+
+Database High secure 
+Multi layer Authentification
+We can reduce/avoid redudancy 
+
+
+
